@@ -16,9 +16,9 @@ function handleSelect(){
 }
 
     return(
-        <Link to='/cart' onClick={handleSelect}>
+        <Link to='/Sugar-Rush/cart' onClick={handleSelect}>
             <div className="card">
-                <img src="src/images/cupcake.png" className="card--image" alt="Cupcake" />
+                <img src="https://clipart-library.com/images_k/cupcake-silhouette-png/cupcake-silhouette-png-16.jpg" className="card--image" alt="Cupcake" />
                 <h3 className="card--text">{props.cupcakeName}</h3>
             </div>
         </Link>

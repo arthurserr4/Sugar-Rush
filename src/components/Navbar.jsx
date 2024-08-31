@@ -7,7 +7,7 @@ export default function Navbar() {
         <div className="navbar">
             <h2 className="navbar--title">Sugar Rush</h2>
             <h3 className="navbar--choice">
-                <Link to='/' className="navbar--home">Home</Link> | <Link to='/cart' className="navbar--cart">Carrinho</Link>
+                <Link to='/Sugar-Rush' className="navbar--home">Home</Link> | <Link to='/Sugar-rush/Cart' className="navbar--cart">Carrinho</Link>
             </h3>
         </div>
     )

@@ -18,7 +18,7 @@ export default function RightRetangle (){
         const confirmPurchase = window.confirm(`${count} ${selectedData.cupcakeName} Cupcake\nO custo será de ${total}R$\nDeseja comprar?`);
         if (confirmPurchase) {
             alert("Compra realizada!")
-            navigate('/');
+            navigate('/Sugar-Rush');
             window.location.reload();
         }
     }

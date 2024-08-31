@@ -8,11 +8,11 @@ import { SelectedProvider } from './context/SelectedContext.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/Sugar-Rush',
     element: <Home/>
   },
   {
-    path: '/cart',
+    path: '/Sugar-Rush/cart',
     element: <Cart/>
   }
 ])
