@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+}
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    background-color: #222222;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 114px;
+    background-color: #9747FF;
+    justify-content: space-between;
+}
+
+.navbar--title{
+    color: #FFFFFF;
+    padding-left: 43px;
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.navbar--choice{
+    color: #D9D9D9;
+    padding-right: 30px;
+    font-family: 'typography';
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.navbar--home{
+    color: #D9D9D9;
+    font-family: 'typography';
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.navbar--cart{
+    color: #D9D9D9;
+    font-family: 'typography';
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    height: 231.22px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+}
+
+.welcome--welcome {
+    color: #FF748C;
+    font-family: 'Raleway';
+    font-size: 128px;
+    font-weight: 600;
+    font-style: italic;
+    margin: 0 0 0 0;
+}
+
+.welcome--ask {
+    color: #FF748C;
+    font-family: 'Raleway';
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+    margin: 0 0 50px 0;
+}
+
+.cupcakes {
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-around;
+    background-color: #FF748C;
+    width: 1280px;
+    height: 252px;
+    align-items: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 228px;
+    height: 201px;
+    padding: 2em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    transition: background-color 0.3s ease;
+}
+
+.card:hover{
+    background-color: #222222;
+    margin: 0;
+}
+
+.card--image{
+    padding: 0;
+    width: 110px;
+    height: 104px;
+}
+
+.card--text {
+    margin:0;
+    font-family: 'Raleway';
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.show--card:hover{
+    background-color: #023047;
+}
+
+.form{
+    display: grid;
+    grid-template: 30px 30px 30px/ 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.form--description {
+    color: #FF748C;
+    font-family: 'Raleway';
+    margin-right: 67%;
+}
+
+.form--label {
+    grid-column: span 1;
+    margin-bottom: 5px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.15px;
+    text-align: left;
+    color: #FF748C;
+}
+
+.form--input {
+    grid-column: span 1; 
+    width: 100%; 
+    padding: 8px;
+    border: 0px;
+    background-color: transparent;
+    border-bottom: solid 1px#FF748C;
+    color: white;
+}
+
+.addCupcake {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    height: 234.76px;
+    gap: 0px;
+    opacity: 0px;
+    background: #023047;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart--background {
+    display: flex;
+    width: 1280px;
+    height: 718px;
+    background-color: white;
+}
+
+.left--retangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 476px;
+    height: 669px;
+    margin-top: 23px;
+    margin-left: 31px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FF748C;
+}
+
+.right--retangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 742px;
+    height: 669px;
+    margin-top: 23px;
+    margin-left: 20px;
+    gap: 0px;
+    opacity: 0px;
+    background: #8ECAE6;
+}
+
+.card--type {
+    margin-top: 100px;
+}
+
+.total--price {
+    margin-top: 100px;
+    font-family: Raleway;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 112.7px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.cupcake--description {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Raleway;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 112.7px;
+    text-align: left;   
+    color: white;
+}
+
+.cupcake--totalPrice{
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 112.7px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    margin-top: 300px;
+}
+
+.plusAtRight{
+    display: flex;
+    position: absolute;
+    margin-top: 450px;
+}
+
+.cupcake--amount {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 56px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.amount--text {
+    margin: 5px 0px 5px 10px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    color: #FF748C;
+}
+
+.amount--select {
+    width: 196px;
+    height: 24px;
+    margin-left: 10px
+}
+
+.addButton {
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FF748C;
+    border: none;
+    font-size: 30px;
+    color: #D9D9D9;
+    transition: background-color 0.3s ease;
+}
+
+.addButton:hover{
+    background-color: #222222;
+}
